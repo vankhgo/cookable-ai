@@ -30,9 +30,20 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files
 .env*
-!.env.example
+
+# internal release-private docs
+CURRENT_PRODUCT_RULES.md
+BACKEND_HANDOFF.md
+SUPABASE_SCHEMA.md
+API_AI_SPEC.md
+FRONTEND_SCAFFOLD_PLAN.md
+TODO.md
+TECH_SPEC.md
+
+# internal sql/migrations
+supabase/sql/
 
 # vercel
 .vercel
